@@ -1,7 +1,7 @@
 {
   "name": "easy-webpack",
   "description": "base on hjs-webpack 8.3.0",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "",
   "bin": {
     "hjs-dev-server": "bin/hjs-dev-server.js"
