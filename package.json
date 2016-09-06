@@ -1,0 +1,56 @@
+{
+  "name": "easy-webpack",
+  "description": "base on hjs-webpack 8.3.0",
+  "version": "0.0.1",
+  "author": "",
+  "bin": {
+    "hjs-dev-server": "bin/hjs-dev-server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/nehcnah/easy-webpack/issues"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.2.0",
+    "contains-path": "^0.1.0",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "find-root": "^1.0.0",
+    "http-proxy-middleware": "^0.17.0",
+    "lodash.assign": "^4.0.6",
+    "lodash.defaults": "^4.0.1",
+    "lodash.pick": "^4.1.0",
+    "rimraf": "^2.5.2",
+    "webpack": "^1.12.14",
+    "webpack-dev-middleware": "^1.5.1",
+    "webpack-hot-middleware": "^2.10.0"
+  },
+  "devDependencies": {
+    "git-validate": "^2.2.0",
+    "standard": "^8.0.0"
+  },
+  "homepage": "https://github.com/nehcnah/easy-webpack#readme",
+  "keywords": [
+    "config",
+    "human javascript",
+    "webpack"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "pre-commit": [
+    "lint",
+    "validate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nehcnah/easy-webpack.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "standard": {
+    "ignore": [
+      "examples/*/public/*",
+      "examples/*/node_modules/*"
+    ]
+  }
+}
