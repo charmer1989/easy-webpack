@@ -6,6 +6,8 @@
 
 ### 已兼容淘宝的 Ant Design
 
+### 新增 webpack-dashboard ，界面更炫酷
+
 # 欢迎关注、欢迎issues
 
 ```

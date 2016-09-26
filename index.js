@@ -125,6 +125,13 @@ module.exports = function (opts) {
         new (require('webpack-visualizer-plugin'))
       )
     }
+
+    if (isInstalled('webpack-dashboard')) {
+      config.plugins.push(
+         new (require('webpack-dashboard/plugin'))
+      )
+    }
+    
   } else {
     // clear out output folder if so configured
     if (spec.clearBeforeBuild) {
