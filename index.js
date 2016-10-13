@@ -27,7 +27,7 @@ module.exports = function (opts) {
       filename: null,
       cssFilename: null,
       hash: false,
-      publicPath: outputFolder + '/'
+      publicPath: isDev?'/': (outputFolder + '/')
     }),
     configFile: null,
     isDev: isDev,
