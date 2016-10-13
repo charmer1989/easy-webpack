@@ -8,6 +8,8 @@
 
 ### 新增 webpack-dashboard ，界面更炫酷
 
+### 修复public的path的地址问题
+
 # 欢迎关注、欢迎issues
 
 ```
